@@ -4,6 +4,7 @@
 * Phone: +37529 612 85 64;
 * Viber: +37529 612 85 64;
 * X: @protosha1984;
+* Discord: NatalliaVashkevich;
 * Email: mahatali84@gmail.com;
 ## Few words about myself:
 ## Skills:
