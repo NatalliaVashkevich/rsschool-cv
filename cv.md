@@ -8,5 +8,13 @@
 ## Few words about myself:
 ## Skills:
 ## Code Example:
+```
+let answer = prompt('What number is answer to everything?', '');
+if(answer == '42') {
+  alert ('True!')
+} else {
+  alert ("Don't you know? Of course 42!");
+}
+```
 ## Aducation:
 ## English:
