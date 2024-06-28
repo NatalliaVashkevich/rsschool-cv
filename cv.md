@@ -8,6 +8,10 @@
 * Email: mahatali84@gmail.com;
 ## Few words about myself:
 ## Skills:
+1. HTML basics;
+2. CSS basics;
+3. JS basics;
+https://NatalliaVashkevich.github.io/rsschool-cv/cv
 ## Code Example:
 ```
 let answer = prompt('What number is answer to everything?', '');
