@@ -34,6 +34,23 @@
     border: 1px solid blue;
   }
 
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-item {
+
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+  }
+
   .footer {
     border: 1px solid orange;
     height: 15vh;
