@@ -21,11 +21,11 @@
     justify-content: space-between;
   }
 
-  .header {
+  header {
     border: 1px solid red;
   }
 
-  .main {
+  main {
     border: 1px solid green;
     flex-grow: 1;
   }
@@ -51,7 +51,7 @@
     transition: 0.3s;
   }
 
-  .footer {
+  footer {
     border: 1px solid orange;
     height: 15vh;
   }
