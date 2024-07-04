@@ -9,27 +9,34 @@
 </head>
 <body>
     <header>
-        <img src="assets/img/my-photo.jpg" alt="selfie" width="100" height="auto">
-<nav class="nav">
-<ul class="nav-list">
-    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-    <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
-    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-    <li class="nav-item"><a href="#aducation" class="nav-link">Aducation</a></li>
-    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
-</ul>
-</nav>
-    </header>
-    <main>
-        <section>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#aducation" class="nav-link">Aducation</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+            </nav>
+
+           <section class="profile">
+            <img class="avatar" src="assets/img/my-photo.jpg" alt="avatar">
+            
+            <div class="profile-data">
             <h1>Natallia Vashkevich</h1>
             <p>Junior Front-end Developer</p>
-        </section>
+            </div>
+           </section>
+            
+       
 
-        <section>
-            <h2 id="contacts">Contacts</h2>
+    </header>
+    <main class="main-container">
+        
+        <section id="contacts">
+            <h2>Contacts</h2>
             <ul>
                 <li>Phone: +37529 612 85 64;</li>
                 <li>Viber: +37429 612 85 64;</li>
@@ -39,8 +46,8 @@
             </ul>
         </section>
 
-        <section>
-            <h2 id="summary">Summary</h2>
+        <section id="summary">
+            <h2>Summary</h2>
         </section>
         <section>
             <h2 id="skills">Skills</h2>
@@ -51,26 +58,12 @@
             </ul>
         </section>
         
-        <section>
-            <h2 id="projects">Projects</h2>
+        <section id="projects">
+            <h2>Projects</h2>
         </section>
         
-        <section>
-            <h2 id="code">Code example</h2>
-            <pre>
-            <code>
-        let answer = prompt('What number is answer to everything?', '');
-    if(answer == '42') {
-        alert ('True!')
-    } else {
-        alert ("Don't you know? Of course 42!");
-    }
-            </code>
-            </pre>
-        </section>
-        
-        <section>
-            <h2 id="education">Education</h2>
+        <section id="education">
+            <h2>Education</h2>
             <ul>
                 <li><a href="https://t.co/fvWzkrhOCA">HTML basics</a></li>
                 <li><a href="https://t.co/gnuDfR3sdh">CSS basics</a></li>
@@ -78,9 +71,23 @@
                 <li><a href="https://rs.school/courses/javascript-preschool-ru">RSschool stage0</a></li>
             </ul>
         </section>
+
+        <section id="code">
+            <h2>Code example</h2>
+            <pre>
+            <code>
+    let answer = prompt('What number is answer to everything?', '');
+if(answer == '42') {
+    alert ('True!')
+} else {
+    alert ("Don't you know? Of course 42!");
+}
+            </code>
+            </pre>
+        </section>
         
-        <section>
-            <h2 id="english">English</h2>
+        <section id="english">
+            <h2>English</h2>
             <p>A2 Pre-intermediate</p>   
         </section>
 
