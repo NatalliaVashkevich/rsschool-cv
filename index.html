@@ -1,12 +1,108 @@
 <!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title>My CV-project</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Natallia Vashkevich</h1>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV-project</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#aducation" class="nav-link">Aducation</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+
+           <div class="profile">
+            <img class="avatar" src="assets/img/my-photo.jpg" alt="avatar">
+            
+            <div class="profile-data">
+            <h1>Natallia Vashkevich</h1>
+            <p>Junior Front-end Developer</p>
+            </div>
+        </div>
+        </header>
+
+    <main class="main-container">
+        
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>Phone: +37529 612 85 64;</li>
+                <li>Viber: +37429 612 85 64;</li>
+                <li>Telegram: @Natali_901;</li>
+                <li>Discord: NatalliaVashkevich;</li>
+                <li>Email: mahatali84@gmail.com;</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>I'm from Minsk and I want to change my life? that's why I decided to learn programming.</p>
+            <p>I studied on my own HTML, CSS and JavaScript basics. I'm currently studying at RSschool (stage0).</p>
+            <p>Programming fascinates me very much, I like the structure and discipline of the code. Writing code reminds me of solving a puzzle.</p>
+            <p>I hope to reach the end and receive the coveted offer.</p>
+            <p>As we know, the one who walks will master the road</p>
+        </section>
+        <section>
+            <h2 id="skills">Skills</h2>
+            <ul>
+                <li>HTML basics;</li>
+                <li>CSS basics;</li>
+                <li>JavaScript basics;</li>
+            </ul>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <p><a href="https://natalliavashkevich.github.io/rsschool-cv/">My CV-project</a></p>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><a href="https://t.co/fvWzkrhOCA">HTML basics</a></li>
+                <li><a href="https://t.co/gnuDfR3sdh">CSS basics</a></li>
+                <li><a href="https://t.co/voxPu1u7E0">JavaScript basics</a></li>
+                <li><a href="https://rs.school/courses/javascript-preschool-ru">RSschool stage0</a></li>
+            </ul>
+        </section>
+
+        <section id="code">
+            <h2>Code example</h2>
+            <pre>
+            <code>
+    let answer = prompt('What number is answer to everything?', '');
+if(answer == '42') {
+    alert ('True!')
+} else {
+    alert ("Don't you know? Of course 42!");
+}
+            </code>
+            </pre>
+        </section>
+        
+        <section id="english">
+            <h2>English</h2>
+            <p>A2 Pre-intermediate</p>   
+        </section>
+
+    </main>
+<footer>
+<img class="logo" src="assets/img/logo.svg" alt="logo">
+<a href="https://rs.school/courses/javascript-ru">RSschool</a>
+<address><a href="https://github.com/NatalliaVashkevich">My GitHub</a></address>
+<time datetime="2024">&copy;2024</time>
+</footer>
+  
+</body>
+
 </html>
