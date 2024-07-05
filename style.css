@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
+  }
+
+  html {
+    scroll-behavior: smooth; /*Плавная прокрутка*/
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+  }
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  header {
+    background-color: #9ab7c2c0;
+  }
+
+  main {
+   flex-grow: 1;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 250px;
+  }
+
+  .avatar {
+    height: 320px;
+    position: relative;
+    top: -40px;
+    left: 40px;
+    
+  }
+
+  .profile-data {
+    text-align: center;
+  }
+
+  section {
+    width: 45%; /*располагаем секции в 2 столбца*/
+    padding: 0 0 20px 30px;
+  }
+
+  section::before {
+    content: " ";
+    display: block;
+    background: #6d828ac0;
+    height: 2px;
+    width: auto;
+  }
+
+  @media (max-width: 768px) {
+    section {
+      width: 100%;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #b32727;
+  transition: color 0.5s;
+  }
+a:hover {
+  color: #f8c007
+}
+  
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-item {
+color: #4d2323;
+font-size: 18px;
+font-variant: small-caps;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s; /*Свойства, добавленные с пом. :hover изменяются плавно*/
+  }
+
+  footer {
+    height: 15vh;
+    background-color: #6d828ac0;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 30px;
+    padding-top: 10px;
+  }
