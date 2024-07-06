@@ -116,6 +116,8 @@ font-variant: small-caps;
   }
 
   footer {
+    display: flex;
+    justify-content: flex-start;
     height: 15vh;
     background-color: #6d828ac0;
     padding-left: 30px;
@@ -127,3 +129,5 @@ font-variant: small-caps;
     height: 30px;
     padding-top: 10px;
   }
+
+  
